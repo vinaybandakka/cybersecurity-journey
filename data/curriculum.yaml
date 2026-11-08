@@ -318,10 +318,11 @@ days:
     area: Systems
     outcome: Explain domains, OUs, GPOs, Kerberos tickets and the classic AD attacks at concept level.
     learn:
-      - {t: "TryHackMe: Active Directory Basics (free room)", u: "https://tryhackme.com/room/winadbasics"}
+      - {t: "Microsoft Learn: Active Directory Domain Services overview", u: "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview"}
       - {t: "Microsoft Learn: Kerberos authentication overview", u: "https://learn.microsoft.com/en-us/windows-server/security/kerberos/kerberos-authentication-overview"}
+      - {t: "Optional, TryHackMe premium: Active Directory Basics (hands-on AD in the browser)", u: "https://tryhackme.com/room/winadbasics"}
     lab:
-      - Complete the TryHackMe room.
+      - "Write a one-page AD cheat sheet from the reading: domain, forest, tree, OU, group, GPO, domain controller, trust."
       - Draw the Kerberos flow (AS-REQ, TGT, TGS-REQ, service ticket).
       - Write one paragraph each on Kerberoasting, pass-the-hash and Golden Ticket, and the defence for each.
     explain: "Why is Active Directory the first thing attackers go after in a corporate network?"
@@ -657,7 +658,7 @@ days:
     area: Offensive
     outcome: Enumerate a Linux box for privilege escalation paths and know the defence for each.
     learn:
-      - {t: "TryHackMe: Linux Privilege Escalation (room)", u: "https://tryhackme.com/room/linprivesc"}
+      - {t: "TryHackMe: Linux Privilege Escalation (free room)", u: "https://tryhackme.com/room/linprivesc"}
       - {t: "GTFOBins", u: "https://gtfobins.github.io/"}
     lab:
       - Work through the first tasks of the room (sudo, SUID, cron, PATH).
@@ -698,9 +699,10 @@ days:
     area: Defensive
     outcome: Explain what to log, how a SIEM normalises and correlates data, and investigate raw logs.
     learn:
-      - {t: "TryHackMe: Introduction to SIEM (room)", u: "https://tryhackme.com/room/introtosiem"}
+      - {t: "TryHackMe: Introduction to SIEM (free room)", u: "https://tryhackme.com/room/introtosiem"}
       - {t: "OWASP Logging Cheat Sheet", u: "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html"}
     lab:
+      - Do the first three tasks of the TryHackMe room (the full room takes about 2 hours; finish it on a weekend if you like).
       - Export the Juice Shop container logs and your Ubuntu auth.log from earlier labs.
       - Using grep, awk and jq, answer which IP made the most failed logins and when the first suspicious request happened.
       - Write which fields a good security log must have (who, what, when, where, outcome).

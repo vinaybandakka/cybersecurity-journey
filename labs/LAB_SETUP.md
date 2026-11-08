@@ -10,7 +10,7 @@ Your lab is a set of containers on one Docker network. You can rebuild it in a m
 | Wireshark | Packet analysis | Day 11 |
 | Burp Suite Community Edition | Web proxy | Day 27 |
 | A free PortSwigger account | Web Security Academy labs | Day 20 |
-| A free TryHackMe account | Browser-based Windows, AD, Metasploit and SIEM rooms | Day 16 |
+| A free TryHackMe account | Browser-based Windows, Metasploit, privilege escalation and SIEM rooms | Day 16 |
 | kind and kubectl | Local Kubernetes | Day 53 |
 | Python 3.10+ | Scripts, hashing labs, sigma-cli, the Notion sync | Throughout |
 | Optional: a personal AWS account with billing alerts | Prowler and CloudTrail labs | Day 51 |

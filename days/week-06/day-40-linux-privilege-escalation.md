@@ -8,7 +8,7 @@ By the end of today you can: Enumerate a Linux box for privilege escalation path
 
 ## 1. Learn (15 min)
 
-- [TryHackMe: Linux Privilege Escalation (room)](https://tryhackme.com/room/linprivesc)
+- [TryHackMe: Linux Privilege Escalation (free room)](https://tryhackme.com/room/linprivesc)
 - [GTFOBins](https://gtfobins.github.io/)
 
 ## 2. Lab (25 min)

@@ -8,11 +8,12 @@ By the end of today you can: Explain what to log, how a SIEM normalises and corr
 
 ## 1. Learn (15 min)
 
-- [TryHackMe: Introduction to SIEM (room)](https://tryhackme.com/room/introtosiem)
+- [TryHackMe: Introduction to SIEM (free room)](https://tryhackme.com/room/introtosiem)
 - [OWASP Logging Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 
 ## 2. Lab (25 min)
 
+- [ ] Do the first three tasks of the TryHackMe room (the full room takes about 2 hours; finish it on a weekend if you like).
 - [ ] Export the Juice Shop container logs and your Ubuntu auth.log from earlier labs.
 - [ ] Using grep, awk and jq, answer which IP made the most failed logins and when the first suspicious request happened.
 - [ ] Write which fields a good security log must have (who, what, when, where, outcome).

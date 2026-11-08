@@ -10,7 +10,7 @@ Everything here is free unless marked. All links are checked automatically every
 | [PortSwigger Web Security Academy](https://portswigger.net/web-security) | Web security theory plus hundreds of free labs. The best free AppSec training there is. |
 | [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) and [Pwning OWASP Juice Shop](https://pwning.owasp-juice.shop/) | A modern vulnerable app you run in the lab. |
 | [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) | Linux command line under pressure. |
-| [TryHackMe](https://tryhackme.com/) (free rooms, paid plan optional) | Browser-based Windows, Active Directory, Metasploit and SOC rooms. |
+| [TryHackMe](https://tryhackme.com/) (free rooms, paid plan optional) | Browser-based Windows, Metasploit, privilege escalation and SOC rooms. The plan only requires free rooms; Active Directory Basics is premium and optional. |
 | [flAWS.cloud](http://flaws.cloud/) | AWS misconfiguration challenges, no account needed. |
 
 ## YouTube channels worth subscribing to
@@ -55,7 +55,6 @@ Everything here is free unless marked. All links are checked automatically every
 ## Free books
 
 - [Security Engineering, Ross Anderson](https://www.cl.cam.ac.uk/archive/rja14/book.html): the classic. The 3rd edition chapters are free to read online.
-- [The Hitchhiker's Guide to Online Anonymity](https://anonymousplanet.org/guide.html): optional, for OPSEC and privacy depth.
 
 ## Staying current (10 minutes a week)
 

@@ -8,12 +8,13 @@ By the end of today you can: Explain domains, OUs, GPOs, Kerberos tickets and th
 
 ## 1. Learn (15 min)
 
-- [TryHackMe: Active Directory Basics (free room)](https://tryhackme.com/room/winadbasics)
+- [Microsoft Learn: Active Directory Domain Services overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)
 - [Microsoft Learn: Kerberos authentication overview](https://learn.microsoft.com/en-us/windows-server/security/kerberos/kerberos-authentication-overview)
+- [Optional, TryHackMe premium: Active Directory Basics (hands-on AD in the browser)](https://tryhackme.com/room/winadbasics)
 
 ## 2. Lab (25 min)
 
-- [ ] Complete the TryHackMe room.
+- [ ] Write a one-page AD cheat sheet from the reading: domain, forest, tree, OU, group, GPO, domain controller, trust.
 - [ ] Draw the Kerberos flow (AS-REQ, TGT, TGS-REQ, service ticket).
 - [ ] Write one paragraph each on Kerberoasting, pass-the-hash and Golden Ticket, and the defence for each.
 

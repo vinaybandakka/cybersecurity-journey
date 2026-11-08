@@ -69,6 +69,8 @@ python3 scripts/generate.py --start 2026-11-16 --weekends-off
 
 `.github/workflows/links.yml` checks every link on each push and every Monday. YouTube links are verified through YouTube's oEmbed API, so a deleted or private video is caught even though its page still loads. Run it locally with `python3 scripts/check_links.py --verbose`.
 
+A few sites (Cloudflare Learning Center, TryHackMe, iso.org) block CI runners with bot protection. The checker reports those as `WARN` instead of failing, and they were checked by hand in a browser on 2026-11-08.
+
 ## Rules
 
 Only test systems you own or have written permission to test: your lab, PortSwigger labs, TryHackMe machines, flAWS and `scanme.nmap.org`. Never commit real credentials, flags or customer data.
