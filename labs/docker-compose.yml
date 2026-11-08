@@ -1,0 +1,61 @@
+# Home lab for the 60-day plan. Everything runs on an internal Docker network.
+#
+#   docker compose -f labs/docker-compose.yml up -d
+#   docker compose -f labs/docker-compose.yml exec attacker bash
+#   docker compose -f labs/docker-compose.yml down        # tear it all down
+#
+# Only the web UIs are published, and only on 127.0.0.1 so nothing is reachable from your LAN.
+
+name: seclab
+
+networks:
+  lab:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.30.0.0/24
+  # The attacker box also joins "egress" so it can apt-get/pip install tools.
+  egress:
+    driver: bridge
+
+services:
+  juice-shop:
+    image: bkimminich/juice-shop:latest
+    networks: [lab]
+    ports: ["127.0.0.1:3000:3000"]
+    restart: unless-stopped
+
+  dvwa:
+    image: ghcr.io/digininja/dvwa:latest
+    networks: [lab]
+    ports: ["127.0.0.1:8081:80"]
+    environment:
+      DB_SERVER: dvwa-db
+    depends_on: [dvwa-db]
+    restart: unless-stopped
+
+  dvwa-db:
+    image: mariadb:10
+    networks: [lab]
+    environment:
+      MYSQL_ROOT_PASSWORD: dvwa
+      MYSQL_DATABASE: dvwa
+      MYSQL_USER: dvwa
+      MYSQL_PASSWORD: p@ssw0rd
+    restart: unless-stopped
+
+  # Ubuntu target used for hardening (day 15), firewalls (day 13) and hunting (day 48).
+  target:
+    image: ubuntu:24.04
+    networks: [lab]
+    command: ["sleep", "infinity"]
+    cap_add: [NET_ADMIN]
+
+  # Kali toolbox. First run: apt update && apt install -y nmap tcpdump netcat-traditional curl dnsutils
+  attacker:
+    image: kalilinux/kali-rolling
+    networks: [lab, egress]
+    command: ["sleep", "infinity"]
+    cap_add: [NET_ADMIN, NET_RAW]
+    volumes:
+      - ./writeups:/root/writeups

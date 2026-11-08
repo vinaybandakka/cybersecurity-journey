@@ -18,38 +18,56 @@ phases:
     name: Foundations and home lab
     days: [1, 7]
     goal: Think like a defender, speak the core vocabulary, and have a working lab.
+    topics: [CIA triad and AAA, threats vulnerabilities and risk, control types, NIST CSF 2.0, CIS Controls, ISO 27001, Docker-based lab, Linux command line]
+    milestone: Lab running, Bandit level 13 reached, risk register and CSF mapping committed.
   - id: 2
     name: Networking for security
     days: [8, 14]
     goal: Read packets, map networks and explain where each network control sits.
+    topics: [OSI and TCP/IP, TCP/UDP, subnetting and NAT, common ports, DNS and DNS attacks, HTTP, Wireshark, Nmap, firewalls, IDS/IPS, segmentation, zero trust]
+    milestone: Annotated packet captures, an Nmap write-up and a packet-journey diagram with controls.
   - id: 3
     name: Systems and identity
     days: [15, 21]
     goal: Harden Linux and Windows, and explain authentication, authorization and federation.
+    topics: [Linux hardening, Linux logs, Windows accounts and event IDs, Sysmon, Active Directory, Kerberos, password storage, MFA and passkeys, RBAC and ABAC, cloud IAM, OAuth 2.0, OIDC, SAML, JWT]
+    milestone: Lynis before/after, Windows event ID table, least-privilege IAM and RBAC policies, first PortSwigger lab.
   - id: 4
     name: Cryptography, PKI and web basics
     days: [22, 28]
     goal: Use crypto correctly, debug TLS, manage secrets, and proxy web traffic with Burp.
+    topics: [AES and block modes, RSA/ECC, Diffie-Hellman, hashing, HMAC, signatures, artifact signing, PKI, TLS 1.3, mTLS, secrets management, browser security model, CORS, security headers, OWASP Top 10, Burp Suite]
+    milestone: Local CA with mTLS, gitleaks finding a leaked key, Burp intercepting Juice Shop.
   - id: 5
     name: Web and API security
     days: [29, 35]
     goal: Find, exploit (in labs) and fix the OWASP Top 10 and OWASP API Top 10 classes.
+    topics: [SQL injection, XSS, CSP, broken access control and IDOR, authentication flaws, CSRF, SSRF, command injection, path traversal, OWASP API Top 10, secure code review]
+    milestone: At least 12 PortSwigger labs and 10 Juice Shop challenges solved with write-ups.
   - id: 6
     name: Offensive security and vulnerability management
     days: [36, 42]
     goal: Run a scoped test with a methodology, map to ATT&CK and prioritise vulns like a pro.
+    topics: [ethics and rules of engagement, pentest methodology, Cyber Kill Chain, MITRE ATT&CK, CVE, CVSS, EPSS, CISA KEV, Metasploit, shells, Linux privilege escalation, phishing, SPF/DKIM/DMARC, password attacks, reporting]
+    milestone: An ATT&CK Navigator layer and a mini pentest report.
   - id: 7
     name: Defensive security operations
     days: [43, 49]
     goal: Collect logs, write detections, and lead an incident from triage to lessons learned.
+    topics: [security logging, SIEM, detection engineering, Sigma, incident response lifecycle, forensics basics, traffic analysis, malware types, threat intelligence, Pyramid of Pain, YARA, threat hunting, Atomic Red Team, tabletop exercises]
+    milestone: Sigma and YARA rules in detections/, an IR playbook in playbooks/, a hunt write-up.
   - id: 8
     name: Cloud, containers and DevSecOps
     days: [50, 56]
     goal: Secure AWS, containers, Kubernetes and CI/CD, which is where your DevOps edge is biggest.
+    topics: [shared responsibility, AWS IAM, CloudTrail, GuardDuty, S3 security, IMDSv2, container hardening, image scanning, Kubernetes RBAC, Pod Security Standards, network policies, OWASP CI/CD Top 10, SLSA, SBOM, signing, SAST/SCA/DAST/IaC/secrets scanning, threat modeling with STRIDE]
+    milestone: flAWS levels 1-4, a hardened image, a secured kind cluster, a DevSecOps pipeline and a threat model.
   - id: 9
     name: GRC, architecture and capstone
     days: [57, 60]
     goal: Talk risk and compliance with leadership, design secure systems, and prove it end to end.
+    topics: [risk management and RMF, policies standards and procedures, ISO 27001, SOC 2, PCI DSS, GDPR, secure design principles, security architecture, capstone, mock interview]
+    milestone: Secure architecture doc, capstone report, recorded mock interview and a next-90-days plan.
 
 days:
   # ---------------------------------------------------------------- Phase 1
@@ -111,7 +129,7 @@ days:
       - Read labs/LAB_SETUP.md, then run `docker compose -f labs/docker-compose.yml up -d`.
       - Open Juice Shop on http://localhost:3000 and DVWA on http://localhost:8081, and confirm both load.
       - "Exec into the attacker box: `docker compose -f labs/docker-compose.yml exec attacker bash`, then `curl -I http://juice-shop:3000`."
-      - Confirm with `docker network inspect` that the lab network is internal-only and write down why that matters.
+      - "Run `docker compose -f labs/docker-compose.yml ps` and confirm every published port is bound to 127.0.0.1 only. Write down why that matters."
     explain: "Why must vulnerable lab targets never be exposed on a public IP, and how did you enforce that?"
     bridge: You already know Compose and networks. This is the same skill pointed at a security lab.
     deliverable: notes/day-04.md with a screenshot or the output proving the lab works.

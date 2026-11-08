@@ -159,7 +159,48 @@ def main() -> None:
         prog.append("")
     (ROOT / "PROGRESS.md").write_text("\n".join(prog))
 
-    print(f"Wrote {len(days)} day pages, {tracker.relative_to(ROOT)} and PROGRESS.md")
+    (ROOT / "ROADMAP.md").write_text(render_roadmap(phases, days, dates))
+    print(f"Wrote {len(days)} day pages, ROADMAP.md, PROGRESS.md and {tracker.relative_to(ROOT)}")
+
+
+def render_roadmap(phases: list[dict], days: list[dict], dates: list[dt.date]) -> str:
+    total_hours = len(days) * 45 / 60
+    out = [
+        "# 60-day security fundamentals roadmap",
+        "",
+        f"{len(days)} days × 45 minutes = {total_hours:.0f} focused hours. Every day follows the same rhythm:",
+        "",
+        "| Block | Minutes | What you do |",
+        "|---|---|---|",
+        "| Learn | 15 | One video or reading from the day page. Take notes in your own words. |",
+        "| Lab | 25 | Hands-on work in your lab or on a free platform. Always produces evidence. |",
+        "| Explain | 5 | Answer the SME question out loud, then write 3 to 5 sentences. |",
+        "",
+        "Every seventh day is a review and checkpoint against [sme/INTERVIEW_QUESTIONS.md](sme/INTERVIEW_QUESTIONS.md).",
+        "",
+        "## Phases at a glance",
+        "",
+        "| Phase | Days | Focus | Milestone |",
+        "|---|---|---|---|",
+    ]
+    for p in phases:
+        out.append(f"| {p['id']}. {p['name']} | {p['days'][0]}-{p['days'][1]} | {p['goal']} | {p['milestone']} |")
+    for p in phases:
+        out += ["", f"## Phase {p['id']}: {p['name']} (days {p['days'][0]}-{p['days'][1]})", "",
+                f"**Goal:** {p['goal']}", "",
+                "**Topics:** " + ", ".join(p["topics"]) + ".", "",
+                f"**Milestone:** {p['milestone']}", "",
+                "| Day | Topic | You will be able to | Key resource |",
+                "|---|---|---|---|"]
+        for i, d in enumerate(days):
+            if p["days"][0] <= d["day"] <= p["days"][1]:
+                r = d["learn"][0]
+                icon = "▶️ " if is_youtube(r["u"]) else ""
+                out.append(f"| [{d['day']:02d}]({day_path(d).as_posix()}) | {d['title']} | {d['outcome']} | {icon}[link]({r['u']}) |")
+    out += ["", "## After day 60", "",
+            "See [resources/RESOURCES.md](resources/RESOURCES.md) for certifications and specialisation paths, "
+            "and write your plan on day 60.", ""]
+    return "\n".join(out)
 
 
 if __name__ == "__main__":

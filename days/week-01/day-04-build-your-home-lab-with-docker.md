@@ -17,7 +17,7 @@ By the end of today you can: Run an isolated, disposable lab with vulnerable app
 - [ ] Read labs/LAB_SETUP.md, then run `docker compose -f labs/docker-compose.yml up -d`.
 - [ ] Open Juice Shop on http://localhost:3000 and DVWA on http://localhost:8081, and confirm both load.
 - [ ] Exec into the attacker box: `docker compose -f labs/docker-compose.yml exec attacker bash`, then `curl -I http://juice-shop:3000`.
-- [ ] Confirm with `docker network inspect` that the lab network is internal-only and write down why that matters.
+- [ ] Run `docker compose -f labs/docker-compose.yml ps` and confirm every published port is bound to 127.0.0.1 only. Write down why that matters.
 
 ## 3. Explain it like an SME (5 min)
 
