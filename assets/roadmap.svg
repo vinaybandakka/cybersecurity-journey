@@ -1,0 +1,314 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1046" viewBox="0 0 1680 1046" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="1680" height="1046" fill="#ffffff"/>
+<text x="24" y="46" font-size="28" font-weight="700" fill="#0f172a">DevOps to Security: 60-day fundamentals roadmap</text>
+<text x="24" y="76" font-size="15" fill="#475569">45 minutes a day: 15 min learn, 25 min lab, 5 min explain like an SME. Every 7th day is a review checkpoint.</text>
+<text x="24" y="100" font-size="13" fill="#64748b">▶ = has a YouTube video   ★ = review and checkpoint day   ◆ = DevOps bridge (your background helps)</text>
+<rect x="24" y="118" width="1632" height="84" rx="12" fill="#eff6ff"/>
+<rect x="24" y="118" width="6" height="84" rx="3" fill="#2563eb"/>
+<text x="42" y="142" font-size="12" font-weight="700" fill="#2563eb" letter-spacing="0.5">PHASE 1 · WEEK 1 · DAYS 1-7</text>
+<text x="42" y="164" font-size="16" font-weight="700" fill="#0f172a">Foundations and home lab</text>
+<rect x="294" y="125" width="186" height="70" rx="9" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="304" y="143" font-size="11" font-weight="700" fill="#2563eb">DAY 01</text>
+<text x="470" y="143" font-size="11" text-anchor="end" fill="#2563eb">▶◆</text>
+<text x="304" y="160" font-size="11.5" fill="#1e293b">The security mindset, CIA</text>
+<text x="304" y="174" font-size="11.5" fill="#1e293b">and AAA</text>
+<rect x="490" y="125" width="186" height="70" rx="9" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="500" y="143" font-size="11" font-weight="700" fill="#2563eb">DAY 02</text>
+<text x="666" y="143" font-size="11" text-anchor="end" fill="#2563eb">▶◆</text>
+<text x="500" y="160" font-size="11.5" fill="#1e293b">Threats, vulnerabilities,</text>
+<text x="500" y="174" font-size="11.5" fill="#1e293b">risk and controls</text>
+<rect x="686" y="125" width="186" height="70" rx="9" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="696" y="143" font-size="11" font-weight="700" fill="#2563eb">DAY 03</text>
+<text x="696" y="160" font-size="11.5" fill="#1e293b">Security frameworks, NIST</text>
+<text x="696" y="174" font-size="11.5" fill="#1e293b">CSF 2.0 and CIS Controls</text>
+<rect x="882" y="125" width="186" height="70" rx="9" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="892" y="143" font-size="11" font-weight="700" fill="#2563eb">DAY 04</text>
+<text x="1058" y="143" font-size="11" text-anchor="end" fill="#2563eb">◆</text>
+<text x="892" y="160" font-size="11.5" fill="#1e293b">Build your home lab with</text>
+<text x="892" y="174" font-size="11.5" fill="#1e293b">Docker</text>
+<rect x="1078" y="125" width="186" height="70" rx="9" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1088" y="143" font-size="11" font-weight="700" fill="#2563eb">DAY 05</text>
+<text x="1254" y="143" font-size="11" text-anchor="end" fill="#2563eb">▶</text>
+<text x="1088" y="160" font-size="11.5" fill="#1e293b">Linux command line for</text>
+<text x="1088" y="174" font-size="11.5" fill="#1e293b">security, part 1</text>
+<rect x="1274" y="125" width="186" height="70" rx="9" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1284" y="143" font-size="11" font-weight="700" fill="#2563eb">DAY 06</text>
+<text x="1284" y="160" font-size="11.5" fill="#1e293b">Linux command line for</text>
+<text x="1284" y="174" font-size="11.5" fill="#1e293b">security, part 2</text>
+<rect x="1470" y="125" width="186" height="70" rx="9" fill="#ffffff" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="1480" y="143" font-size="11" font-weight="700" fill="#2563eb">DAY 07</text>
+<text x="1646" y="143" font-size="11" text-anchor="end" fill="#2563eb">★</text>
+<text x="1480" y="160" font-size="11.5" fill="#1e293b">Week 1 review and</text>
+<text x="1480" y="174" font-size="11.5" fill="#1e293b">checkpoint</text>
+<rect x="24" y="214" width="1632" height="84" rx="12" fill="#ecfeff"/>
+<rect x="24" y="214" width="6" height="84" rx="3" fill="#0891b2"/>
+<text x="42" y="238" font-size="12" font-weight="700" fill="#0891b2" letter-spacing="0.5">PHASE 2 · WEEK 2 · DAYS 8-14</text>
+<text x="42" y="260" font-size="16" font-weight="700" fill="#0f172a">Networking for security</text>
+<rect x="294" y="221" width="186" height="70" rx="9" fill="#ffffff" stroke="#0891b2" stroke-width="1.5"/>
+<text x="304" y="239" font-size="11" font-weight="700" fill="#0891b2">DAY 08</text>
+<text x="470" y="239" font-size="11" text-anchor="end" fill="#0891b2">▶</text>
+<text x="304" y="256" font-size="11.5" fill="#1e293b">OSI and TCP/IP models, TCP</text>
+<text x="304" y="270" font-size="11.5" fill="#1e293b">handshake</text>
+<rect x="490" y="221" width="186" height="70" rx="9" fill="#ffffff" stroke="#0891b2" stroke-width="1.5"/>
+<text x="500" y="239" font-size="11" font-weight="700" fill="#0891b2">DAY 09</text>
+<text x="666" y="239" font-size="11" text-anchor="end" fill="#0891b2">◆</text>
+<text x="500" y="256" font-size="11.5" fill="#1e293b">IP addressing, subnets, NAT</text>
+<text x="500" y="270" font-size="11.5" fill="#1e293b">and ports</text>
+<rect x="686" y="221" width="186" height="70" rx="9" fill="#ffffff" stroke="#0891b2" stroke-width="1.5"/>
+<text x="696" y="239" font-size="11" font-weight="700" fill="#0891b2">DAY 10</text>
+<text x="862" y="239" font-size="11" text-anchor="end" fill="#0891b2">▶</text>
+<text x="696" y="256" font-size="11.5" fill="#1e293b">DNS and HTTP through a</text>
+<text x="696" y="270" font-size="11.5" fill="#1e293b">security lens</text>
+<rect x="882" y="221" width="186" height="70" rx="9" fill="#ffffff" stroke="#0891b2" stroke-width="1.5"/>
+<text x="892" y="239" font-size="11" font-weight="700" fill="#0891b2">DAY 11</text>
+<text x="892" y="256" font-size="11.5" fill="#1e293b">Packet analysis with</text>
+<text x="892" y="270" font-size="11.5" fill="#1e293b">Wireshark</text>
+<rect x="1078" y="221" width="186" height="70" rx="9" fill="#ffffff" stroke="#0891b2" stroke-width="1.5"/>
+<text x="1088" y="239" font-size="11" font-weight="700" fill="#0891b2">DAY 12</text>
+<text x="1088" y="256" font-size="11.5" fill="#1e293b">Network reconnaissance with</text>
+<text x="1088" y="270" font-size="11.5" fill="#1e293b">Nmap</text>
+<rect x="1274" y="221" width="186" height="70" rx="9" fill="#ffffff" stroke="#0891b2" stroke-width="1.5"/>
+<text x="1284" y="239" font-size="11" font-weight="700" fill="#0891b2">DAY 13</text>
+<text x="1450" y="239" font-size="11" text-anchor="end" fill="#0891b2">◆</text>
+<text x="1284" y="256" font-size="11.5" fill="#1e293b">Firewalls, IDS/IPS,</text>
+<text x="1284" y="270" font-size="11.5" fill="#1e293b">segmentation and zero trust</text>
+<rect x="1470" y="221" width="186" height="70" rx="9" fill="#ffffff" stroke="#0891b2" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="1480" y="239" font-size="11" font-weight="700" fill="#0891b2">DAY 14</text>
+<text x="1646" y="239" font-size="11" text-anchor="end" fill="#0891b2">★</text>
+<text x="1480" y="256" font-size="11.5" fill="#1e293b">Week 2 review and</text>
+<text x="1480" y="270" font-size="11.5" fill="#1e293b">checkpoint</text>
+<rect x="24" y="310" width="1632" height="84" rx="12" fill="#f5f3ff"/>
+<rect x="24" y="310" width="6" height="84" rx="3" fill="#7c3aed"/>
+<text x="42" y="334" font-size="12" font-weight="700" fill="#7c3aed" letter-spacing="0.5">PHASE 3 · WEEK 3 · DAYS 15-21</text>
+<text x="42" y="356" font-size="16" font-weight="700" fill="#0f172a">Systems and identity</text>
+<rect x="294" y="317" width="186" height="70" rx="9" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="304" y="335" font-size="11" font-weight="700" fill="#7c3aed">DAY 15</text>
+<text x="470" y="335" font-size="11" text-anchor="end" fill="#7c3aed">◆</text>
+<text x="304" y="352" font-size="11.5" fill="#1e293b">Linux hardening and logging</text>
+<rect x="490" y="317" width="186" height="70" rx="9" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="500" y="335" font-size="11" font-weight="700" fill="#7c3aed">DAY 16</text>
+<text x="500" y="352" font-size="11.5" fill="#1e293b">Windows security</text>
+<text x="500" y="366" font-size="11.5" fill="#1e293b">fundamentals</text>
+<rect x="686" y="317" width="186" height="70" rx="9" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="696" y="335" font-size="11" font-weight="700" fill="#7c3aed">DAY 17</text>
+<text x="696" y="352" font-size="11.5" fill="#1e293b">Active Directory and</text>
+<text x="696" y="366" font-size="11.5" fill="#1e293b">Kerberos basics</text>
+<rect x="882" y="317" width="186" height="70" rx="9" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="892" y="335" font-size="11" font-weight="700" fill="#7c3aed">DAY 18</text>
+<text x="1058" y="335" font-size="11" text-anchor="end" fill="#7c3aed">▶</text>
+<text x="892" y="352" font-size="11.5" fill="#1e293b">Authentication, passwords,</text>
+<text x="892" y="366" font-size="11.5" fill="#1e293b">MFA and passkeys</text>
+<rect x="1078" y="317" width="186" height="70" rx="9" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="1088" y="335" font-size="11" font-weight="700" fill="#7c3aed">DAY 19</text>
+<text x="1254" y="335" font-size="11" text-anchor="end" fill="#7c3aed">◆</text>
+<text x="1088" y="352" font-size="11.5" fill="#1e293b">Authorization, IAM and</text>
+<text x="1088" y="366" font-size="11.5" fill="#1e293b">least privilege</text>
+<rect x="1274" y="317" width="186" height="70" rx="9" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="1284" y="335" font-size="11" font-weight="700" fill="#7c3aed">DAY 20</text>
+<text x="1450" y="335" font-size="11" text-anchor="end" fill="#7c3aed">▶</text>
+<text x="1284" y="352" font-size="11.5" fill="#1e293b">Federation with OAuth 2.0,</text>
+<text x="1284" y="366" font-size="11.5" fill="#1e293b">OIDC, SAML and JWT</text>
+<rect x="1470" y="317" width="186" height="70" rx="9" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="1480" y="335" font-size="11" font-weight="700" fill="#7c3aed">DAY 21</text>
+<text x="1646" y="335" font-size="11" text-anchor="end" fill="#7c3aed">★</text>
+<text x="1480" y="352" font-size="11.5" fill="#1e293b">Week 3 review and</text>
+<text x="1480" y="366" font-size="11.5" fill="#1e293b">checkpoint</text>
+<rect x="24" y="406" width="1632" height="84" rx="12" fill="#fdf4ff"/>
+<rect x="24" y="406" width="6" height="84" rx="3" fill="#c026d3"/>
+<text x="42" y="430" font-size="12" font-weight="700" fill="#c026d3" letter-spacing="0.5">PHASE 4 · WEEK 4 · DAYS 22-28</text>
+<text x="42" y="452" font-size="16" font-weight="700" fill="#0f172a">Cryptography, PKI and web</text>
+<text x="42" y="471" font-size="16" font-weight="700" fill="#0f172a">basics</text>
+<rect x="294" y="413" width="186" height="70" rx="9" fill="#ffffff" stroke="#c026d3" stroke-width="1.5"/>
+<text x="304" y="431" font-size="11" font-weight="700" fill="#c026d3">DAY 22</text>
+<text x="470" y="431" font-size="11" text-anchor="end" fill="#c026d3">▶</text>
+<text x="304" y="448" font-size="11.5" fill="#1e293b">Symmetric and asymmetric</text>
+<text x="304" y="462" font-size="11.5" fill="#1e293b">crypto, key exchange</text>
+<rect x="490" y="413" width="186" height="70" rx="9" fill="#ffffff" stroke="#c026d3" stroke-width="1.5"/>
+<text x="500" y="431" font-size="11" font-weight="700" fill="#c026d3">DAY 23</text>
+<text x="666" y="431" font-size="11" text-anchor="end" fill="#c026d3">▶◆</text>
+<text x="500" y="448" font-size="11.5" fill="#1e293b">Hashing, MACs and digital</text>
+<text x="500" y="462" font-size="11.5" fill="#1e293b">signatures</text>
+<rect x="686" y="413" width="186" height="70" rx="9" fill="#ffffff" stroke="#c026d3" stroke-width="1.5"/>
+<text x="696" y="431" font-size="11" font-weight="700" fill="#c026d3">DAY 24</text>
+<text x="696" y="448" font-size="11.5" fill="#1e293b">PKI and TLS</text>
+<rect x="882" y="413" width="186" height="70" rx="9" fill="#ffffff" stroke="#c026d3" stroke-width="1.5"/>
+<text x="892" y="431" font-size="11" font-weight="700" fill="#c026d3">DAY 25</text>
+<text x="1058" y="431" font-size="11" text-anchor="end" fill="#c026d3">◆</text>
+<text x="892" y="448" font-size="11.5" fill="#1e293b">Secrets management and</text>
+<text x="892" y="462" font-size="11.5" fill="#1e293b">crypto failures</text>
+<rect x="1078" y="413" width="186" height="70" rx="9" fill="#ffffff" stroke="#c026d3" stroke-width="1.5"/>
+<text x="1088" y="431" font-size="11" font-weight="700" fill="#c026d3">DAY 26</text>
+<text x="1254" y="431" font-size="11" text-anchor="end" fill="#c026d3">◆</text>
+<text x="1088" y="448" font-size="11.5" fill="#1e293b">Browser security model and</text>
+<text x="1088" y="462" font-size="11.5" fill="#1e293b">security headers</text>
+<rect x="1274" y="413" width="186" height="70" rx="9" fill="#ffffff" stroke="#c026d3" stroke-width="1.5"/>
+<text x="1284" y="431" font-size="11" font-weight="700" fill="#c026d3">DAY 27</text>
+<text x="1284" y="448" font-size="11.5" fill="#1e293b">OWASP Top 10 overview and</text>
+<text x="1284" y="462" font-size="11.5" fill="#1e293b">Burp Suite</text>
+<rect x="1470" y="413" width="186" height="70" rx="9" fill="#ffffff" stroke="#c026d3" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="1480" y="431" font-size="11" font-weight="700" fill="#c026d3">DAY 28</text>
+<text x="1646" y="431" font-size="11" text-anchor="end" fill="#c026d3">★</text>
+<text x="1480" y="448" font-size="11.5" fill="#1e293b">Week 4 review and</text>
+<text x="1480" y="462" font-size="11.5" fill="#1e293b">checkpoint</text>
+<rect x="24" y="502" width="1632" height="84" rx="12" fill="#fef2f2"/>
+<rect x="24" y="502" width="6" height="84" rx="3" fill="#dc2626"/>
+<text x="42" y="526" font-size="12" font-weight="700" fill="#dc2626" letter-spacing="0.5">PHASE 5 · WEEK 5 · DAYS 29-35</text>
+<text x="42" y="548" font-size="16" font-weight="700" fill="#0f172a">Web and API security</text>
+<rect x="294" y="509" width="186" height="70" rx="9" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+<text x="304" y="527" font-size="11" font-weight="700" fill="#dc2626">DAY 29</text>
+<text x="470" y="527" font-size="11" text-anchor="end" fill="#dc2626">▶</text>
+<text x="304" y="544" font-size="11.5" fill="#1e293b">SQL injection</text>
+<rect x="490" y="509" width="186" height="70" rx="9" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+<text x="500" y="527" font-size="11" font-weight="700" fill="#dc2626">DAY 30</text>
+<text x="666" y="527" font-size="11" text-anchor="end" fill="#dc2626">▶</text>
+<text x="500" y="544" font-size="11.5" fill="#1e293b">Cross-site scripting (XSS)</text>
+<rect x="686" y="509" width="186" height="70" rx="9" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+<text x="696" y="527" font-size="11" font-weight="700" fill="#dc2626">DAY 31</text>
+<text x="696" y="544" font-size="11.5" fill="#1e293b">Broken access control and</text>
+<text x="696" y="558" font-size="11.5" fill="#1e293b">IDOR</text>
+<rect x="882" y="509" width="186" height="70" rx="9" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+<text x="892" y="527" font-size="11" font-weight="700" fill="#dc2626">DAY 32</text>
+<text x="1058" y="527" font-size="11" text-anchor="end" fill="#dc2626">▶</text>
+<text x="892" y="544" font-size="11.5" fill="#1e293b">Authentication flaws,</text>
+<text x="892" y="558" font-size="11.5" fill="#1e293b">sessions and CSRF</text>
+<rect x="1078" y="509" width="186" height="70" rx="9" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+<text x="1088" y="527" font-size="11" font-weight="700" fill="#dc2626">DAY 33</text>
+<text x="1254" y="527" font-size="11" text-anchor="end" fill="#dc2626">◆</text>
+<text x="1088" y="544" font-size="11.5" fill="#1e293b">SSRF, command injection and</text>
+<text x="1088" y="558" font-size="11.5" fill="#1e293b">path traversal</text>
+<rect x="1274" y="509" width="186" height="70" rx="9" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+<text x="1284" y="527" font-size="11" font-weight="700" fill="#dc2626">DAY 34</text>
+<text x="1284" y="544" font-size="11.5" fill="#1e293b">API security</text>
+<rect x="1470" y="509" width="186" height="70" rx="9" fill="#ffffff" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="1480" y="527" font-size="11" font-weight="700" fill="#dc2626">DAY 35</text>
+<text x="1646" y="527" font-size="11" text-anchor="end" fill="#dc2626">★</text>
+<text x="1480" y="544" font-size="11.5" fill="#1e293b">Week 5 review and secure</text>
+<text x="1480" y="558" font-size="11.5" fill="#1e293b">code review</text>
+<rect x="24" y="598" width="1632" height="84" rx="12" fill="#fff7ed"/>
+<rect x="24" y="598" width="6" height="84" rx="3" fill="#ea580c"/>
+<text x="42" y="622" font-size="12" font-weight="700" fill="#ea580c" letter-spacing="0.5">PHASE 6 · WEEK 6 · DAYS 36-42</text>
+<text x="42" y="644" font-size="16" font-weight="700" fill="#0f172a">Offensive security and</text>
+<text x="42" y="663" font-size="16" font-weight="700" fill="#0f172a">vulnerability management</text>
+<rect x="294" y="605" width="186" height="70" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.5"/>
+<text x="304" y="623" font-size="11" font-weight="700" fill="#ea580c">DAY 36</text>
+<text x="304" y="640" font-size="11.5" fill="#1e293b">Ethics, rules of engagement</text>
+<text x="304" y="654" font-size="11.5" fill="#1e293b">and pentest methodology</text>
+<rect x="490" y="605" width="186" height="70" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.5"/>
+<text x="500" y="623" font-size="11" font-weight="700" fill="#ea580c">DAY 37</text>
+<text x="500" y="640" font-size="11.5" fill="#1e293b">MITRE ATT&amp;CK</text>
+<rect x="686" y="605" width="186" height="70" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.5"/>
+<text x="696" y="623" font-size="11" font-weight="700" fill="#ea580c">DAY 38</text>
+<text x="862" y="623" font-size="11" text-anchor="end" fill="#ea580c">◆</text>
+<text x="696" y="640" font-size="11.5" fill="#1e293b">Vulnerability management,</text>
+<text x="696" y="654" font-size="11.5" fill="#1e293b">CVE, CVSS, EPSS and KEV</text>
+<rect x="882" y="605" width="186" height="70" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.5"/>
+<text x="892" y="623" font-size="11" font-weight="700" fill="#ea580c">DAY 39</text>
+<text x="892" y="640" font-size="11.5" fill="#1e293b">Exploitation basics and</text>
+<text x="892" y="654" font-size="11.5" fill="#1e293b">Metasploit</text>
+<rect x="1078" y="605" width="186" height="70" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.5"/>
+<text x="1088" y="623" font-size="11" font-weight="700" fill="#ea580c">DAY 40</text>
+<text x="1088" y="640" font-size="11.5" fill="#1e293b">Linux privilege escalation</text>
+<rect x="1274" y="605" width="186" height="70" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.5"/>
+<text x="1284" y="623" font-size="11" font-weight="700" fill="#ea580c">DAY 41</text>
+<text x="1284" y="640" font-size="11.5" fill="#1e293b">Phishing, email security</text>
+<text x="1284" y="654" font-size="11.5" fill="#1e293b">and password attacks</text>
+<rect x="1470" y="605" width="186" height="70" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="1480" y="623" font-size="11" font-weight="700" fill="#ea580c">DAY 42</text>
+<text x="1646" y="623" font-size="11" text-anchor="end" fill="#ea580c">★</text>
+<text x="1480" y="640" font-size="11.5" fill="#1e293b">Week 6 review and mini</text>
+<text x="1480" y="654" font-size="11.5" fill="#1e293b">pentest report</text>
+<rect x="24" y="694" width="1632" height="84" rx="12" fill="#f0fdf4"/>
+<rect x="24" y="694" width="6" height="84" rx="3" fill="#16a34a"/>
+<text x="42" y="718" font-size="12" font-weight="700" fill="#16a34a" letter-spacing="0.5">PHASE 7 · WEEK 7 · DAYS 43-49</text>
+<text x="42" y="740" font-size="16" font-weight="700" fill="#0f172a">Defensive security</text>
+<text x="42" y="759" font-size="16" font-weight="700" fill="#0f172a">operations</text>
+<rect x="294" y="701" width="186" height="70" rx="9" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+<text x="304" y="719" font-size="11" font-weight="700" fill="#16a34a">DAY 43</text>
+<text x="470" y="719" font-size="11" text-anchor="end" fill="#16a34a">◆</text>
+<text x="304" y="736" font-size="11.5" fill="#1e293b">Security logging and SIEM</text>
+<text x="304" y="750" font-size="11.5" fill="#1e293b">fundamentals</text>
+<rect x="490" y="701" width="186" height="70" rx="9" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+<text x="500" y="719" font-size="11" font-weight="700" fill="#16a34a">DAY 44</text>
+<text x="666" y="719" font-size="11" text-anchor="end" fill="#16a34a">◆</text>
+<text x="500" y="736" font-size="11.5" fill="#1e293b">Detection engineering with</text>
+<text x="500" y="750" font-size="11.5" fill="#1e293b">Sigma</text>
+<rect x="686" y="701" width="186" height="70" rx="9" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+<text x="696" y="719" font-size="11" font-weight="700" fill="#16a34a">DAY 45</text>
+<text x="862" y="719" font-size="11" text-anchor="end" fill="#16a34a">◆</text>
+<text x="696" y="736" font-size="11.5" fill="#1e293b">Incident response lifecycle</text>
+<rect x="882" y="701" width="186" height="70" rx="9" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+<text x="892" y="719" font-size="11" font-weight="700" fill="#16a34a">DAY 46</text>
+<text x="1058" y="719" font-size="11" text-anchor="end" fill="#16a34a">▶</text>
+<text x="892" y="736" font-size="11.5" fill="#1e293b">Digital forensics and</text>
+<text x="892" y="750" font-size="11.5" fill="#1e293b">traffic analysis</text>
+<rect x="1078" y="701" width="186" height="70" rx="9" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+<text x="1088" y="719" font-size="11" font-weight="700" fill="#16a34a">DAY 47</text>
+<text x="1088" y="736" font-size="11.5" fill="#1e293b">Malware basics, threat</text>
+<text x="1088" y="750" font-size="11.5" fill="#1e293b">intelligence and YARA</text>
+<rect x="1274" y="701" width="186" height="70" rx="9" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+<text x="1284" y="719" font-size="11" font-weight="700" fill="#16a34a">DAY 48</text>
+<text x="1450" y="719" font-size="11" text-anchor="end" fill="#16a34a">▶</text>
+<text x="1284" y="736" font-size="11.5" fill="#1e293b">Threat hunting and purple</text>
+<text x="1284" y="750" font-size="11.5" fill="#1e293b">teaming</text>
+<rect x="1470" y="701" width="186" height="70" rx="9" fill="#ffffff" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="1480" y="719" font-size="11" font-weight="700" fill="#16a34a">DAY 49</text>
+<text x="1646" y="719" font-size="11" text-anchor="end" fill="#16a34a">★</text>
+<text x="1480" y="736" font-size="11.5" fill="#1e293b">Week 7 review and tabletop</text>
+<text x="1480" y="750" font-size="11.5" fill="#1e293b">exercise</text>
+<rect x="24" y="790" width="1632" height="84" rx="12" fill="#f0fdfa"/>
+<rect x="24" y="790" width="6" height="84" rx="3" fill="#0d9488"/>
+<text x="42" y="814" font-size="12" font-weight="700" fill="#0d9488" letter-spacing="0.5">PHASE 8 · WEEK 8 · DAYS 50-56</text>
+<text x="42" y="836" font-size="16" font-weight="700" fill="#0f172a">Cloud, containers and</text>
+<text x="42" y="855" font-size="16" font-weight="700" fill="#0f172a">DevSecOps</text>
+<rect x="294" y="797" width="186" height="70" rx="9" fill="#ffffff" stroke="#0d9488" stroke-width="1.5"/>
+<text x="304" y="815" font-size="11" font-weight="700" fill="#0d9488">DAY 50</text>
+<text x="470" y="815" font-size="11" text-anchor="end" fill="#0d9488">◆</text>
+<text x="304" y="832" font-size="11.5" fill="#1e293b">Cloud security fundamentals</text>
+<rect x="490" y="797" width="186" height="70" rx="9" fill="#ffffff" stroke="#0d9488" stroke-width="1.5"/>
+<text x="500" y="815" font-size="11" font-weight="700" fill="#0d9488">DAY 51</text>
+<text x="500" y="832" font-size="11.5" fill="#1e293b">AWS security services and</text>
+<text x="500" y="846" font-size="11.5" fill="#1e293b">cloud detection</text>
+<rect x="686" y="797" width="186" height="70" rx="9" fill="#ffffff" stroke="#0d9488" stroke-width="1.5"/>
+<text x="696" y="815" font-size="11" font-weight="700" fill="#0d9488">DAY 52</text>
+<text x="862" y="815" font-size="11" text-anchor="end" fill="#0d9488">◆</text>
+<text x="696" y="832" font-size="11.5" fill="#1e293b">Container security</text>
+<rect x="882" y="797" width="186" height="70" rx="9" fill="#ffffff" stroke="#0d9488" stroke-width="1.5"/>
+<text x="892" y="815" font-size="11" font-weight="700" fill="#0d9488">DAY 53</text>
+<text x="892" y="832" font-size="11.5" fill="#1e293b">Kubernetes security</text>
+<rect x="1078" y="797" width="186" height="70" rx="9" fill="#ffffff" stroke="#0d9488" stroke-width="1.5"/>
+<text x="1088" y="815" font-size="11" font-weight="700" fill="#0d9488">DAY 54</text>
+<text x="1254" y="815" font-size="11" text-anchor="end" fill="#0d9488">◆</text>
+<text x="1088" y="832" font-size="11.5" fill="#1e293b">CI/CD and software supply</text>
+<text x="1088" y="846" font-size="11.5" fill="#1e293b">chain security</text>
+<rect x="1274" y="797" width="186" height="70" rx="9" fill="#ffffff" stroke="#0d9488" stroke-width="1.5"/>
+<text x="1284" y="815" font-size="11" font-weight="700" fill="#0d9488">DAY 55</text>
+<text x="1450" y="815" font-size="11" text-anchor="end" fill="#0d9488">◆</text>
+<text x="1284" y="832" font-size="11.5" fill="#1e293b">AppSec tooling in the</text>
+<text x="1284" y="846" font-size="11.5" fill="#1e293b">pipeline (SAST, SCA, DAST,</text>
+<text x="1284" y="860" font-size="11.5" fill="#1e293b">IaC, secrets)</text>
+<rect x="1470" y="797" width="186" height="70" rx="9" fill="#ffffff" stroke="#0d9488" stroke-width="1.5"/>
+<text x="1480" y="815" font-size="11" font-weight="700" fill="#0d9488">DAY 56</text>
+<text x="1480" y="832" font-size="11.5" fill="#1e293b">Threat modeling</text>
+<rect x="24" y="886" width="1632" height="84" rx="12" fill="#f8fafc"/>
+<rect x="24" y="886" width="6" height="84" rx="3" fill="#475569"/>
+<text x="42" y="910" font-size="12" font-weight="700" fill="#475569" letter-spacing="0.5">PHASE 9 · WEEK 9 · DAYS 57-60</text>
+<text x="42" y="932" font-size="16" font-weight="700" fill="#0f172a">GRC, architecture and</text>
+<text x="42" y="951" font-size="16" font-weight="700" fill="#0f172a">capstone</text>
+<rect x="294" y="893" width="186" height="70" rx="9" fill="#ffffff" stroke="#475569" stroke-width="1.5"/>
+<text x="304" y="911" font-size="11" font-weight="700" fill="#475569">DAY 57</text>
+<text x="304" y="928" font-size="11.5" fill="#1e293b">Governance, risk and</text>
+<text x="304" y="942" font-size="11.5" fill="#1e293b">compliance (GRC)</text>
+<rect x="490" y="893" width="186" height="70" rx="9" fill="#ffffff" stroke="#475569" stroke-width="1.5"/>
+<text x="500" y="911" font-size="11" font-weight="700" fill="#475569">DAY 58</text>
+<text x="500" y="928" font-size="11.5" fill="#1e293b">Security architecture and</text>
+<text x="500" y="942" font-size="11.5" fill="#1e293b">secure design principles</text>
+<rect x="686" y="893" width="186" height="70" rx="9" fill="#ffffff" stroke="#475569" stroke-width="1.5"/>
+<text x="696" y="911" font-size="11" font-weight="700" fill="#475569">DAY 59</text>
+<text x="696" y="928" font-size="11.5" fill="#1e293b">Capstone, attack, detect,</text>
+<text x="696" y="942" font-size="11.5" fill="#1e293b">respond, fix</text>
+<rect x="882" y="893" width="186" height="70" rx="9" fill="#ffffff" stroke="#475569" stroke-width="1.5"/>
+<text x="892" y="911" font-size="11" font-weight="700" fill="#475569">DAY 60</text>
+<text x="892" y="928" font-size="11.5" fill="#1e293b">SME readiness, mock</text>
+<text x="892" y="942" font-size="11.5" fill="#1e293b">interview and next 90 days</text>
+<text x="24" y="1022" font-size="12" fill="#94a3b8">Generated from data/curriculum.yaml by scripts/generate.py · github.com/vinaybandakka/cybersecurity-journey</text>
+</svg>

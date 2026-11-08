@@ -1,0 +1,30 @@
+name: Check links
+
+on:
+  push:
+    paths: ["**.md", "**.yaml", "**.yml", "scripts/check_links.py"]
+  pull_request:
+  schedule:
+    - cron: "0 6 * * 1"  # every Monday, so dead links get caught over the 60 days
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pyyaml
+      - name: Curriculum generates cleanly
+        run: |
+          python3 scripts/generate.py
+          git diff --exit-code -- days tracker PROGRESS.md ROADMAP.md assets || (echo "Run scripts/generate.py and commit the result" && exit 1)
+      - name: Check every link
+        run: python3 scripts/check_links.py --verbose
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
