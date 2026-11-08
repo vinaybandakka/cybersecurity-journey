@@ -23,7 +23,7 @@ jobs:
       - name: Curriculum generates cleanly
         run: |
           python3 scripts/generate.py
-          git diff --exit-code -- days tracker PROGRESS.md ROADMAP.md || (echo "Run scripts/generate.py and commit the result" && exit 1)
+          git diff --exit-code -- days tracker PROGRESS.md ROADMAP.md assets || (echo "Run scripts/generate.py and commit the result" && exit 1)
       - name: Check every link
         run: python3 scripts/check_links.py --verbose
         env:

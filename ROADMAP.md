@@ -1,5 +1,7 @@
 # 60-day security fundamentals roadmap
 
+![The whole 60-day roadmap on one page: nine phases, one card per day](assets/roadmap.svg)
+
 60 days × 45 minutes = 45 focused hours. Every day follows the same rhythm:
 
 | Block | Minutes | What you do |

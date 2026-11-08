@@ -2,6 +2,8 @@
 
 A hands-on plan to master security fundamentals in 60 days at 45 minutes a day, built for someone coming from DevOps. Every day has a clear outcome, one or two hand-picked resources (including YouTube), a 25-minute lab, and a question to answer like a subject matter expert.
 
+![The whole 60-day roadmap on one page: nine phases, one card per day](assets/roadmap.svg)
+
 **Start here:** [ROADMAP.md](ROADMAP.md) → [Day 01](days/week-01/day-01-the-security-mindset-cia-and-aaa.md) → set up [tracking in Notion](tracker/NOTION_SETUP.md).
 
 ## How a day works
@@ -34,6 +36,7 @@ You already know Linux, networking, containers, CI/CD and cloud. Each day page h
 
 ```
 ROADMAP.md                 Full plan: phases, topics, outcomes, milestones, links to every day
+assets/roadmap.svg         The one-page picture of all 60 days (regenerated with the plan)
 PROGRESS.md                Git-native checklist of all 60 days
 days/week-NN/day-NN-*.md   One page per day: outcome, learn, lab, SME question, deliverable
 data/curriculum.yaml       Single source of truth for the plan (edit this, then regenerate)
